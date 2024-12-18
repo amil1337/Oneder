@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+::selection {
+    color: white;
+    background: black;
+}
+header{
+    height: 100vh;
+    width: 1903px;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../assets/hero_1.jpg)center/cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    height: 90px;
+}
+header hr{
+    border: none;
+    border:  1px solid rgba(128, 128, 128, 0.686);
+}
+nav p{
+    font: 900 30px "Work Sans";
+    text-transform: uppercase;
+}
+nav ul{
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    font: 400 16px "Work Sans";
+    text-transform: capitalize;
+}
+nav ul li{
+    color: rgba(255, 255, 255, 0.608);
+    transition: .3s;
+}
+nav ul li:hover{
+    color: white;
+}
+.header-main{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.header-main div{
+    font: 900 48px "Work Sans";
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.header-main p{
+    margin-top: 25px;
+    font: 400 16px "Work Sans";
+    color: white;
+    background-color: rgb(0, 123, 255);
+    padding: 14px 30px;
+    border-radius: 35px;
+    transition: .4s;
+}
+.header-main p:hover{
+    background-color: black;
+}
+.main-1{
+    height: 80vh;
+    justify-self: center;
+}
+.p1{
+    font: 900 40px "Work Sans";
+    color: #007bff;
+    justify-self: center;
+    padding-block: 70px;
+}
+.main-1-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.main-1-content img{
+    width: 520px;
+    height: auto;
+}
+.main-1-content-info{
+    width: 550px;
+}
+.main-1-content-info h1{
+    font: 500 28px "Work Sans";
+    padding-bottom: 25px;
+}
+.main-1-content-info .lorem1{
+    font: 400 16px "Work Sans";
+    line-height: 27.2px;
+    color: #808080;
+    padding-bottom: 25px;
+}
+.main-1-content-info li{
+    font: 400 16px "Work Sans";
+    color: #808080;
+    line-height: 24px;
+    padding-block: 5px;
+}
+.main-1-content-info i{
+    color: rgb(113, 189, 66);
+    padding-right: 20px;
+}
+.main-1-content-info-button{
+    font: 400 16px "Work Sans";
+    color: white;
+    background-color: rgb(0, 123, 255);
+    padding-block: 14px;
+    width: 160px;
+    border-radius: 35px;
+    transition: .4s;
+    text-align: center;
+    margin-top: 38px;
+}
+.main-1-content-info-button:hover{
+    background-color: black;
+}
+.main-2{
+    margin-top: 50px;
+    height: 110vh;
+}
+.p2{
+    font: 900 40px "Work Sans";
+    color: #007bff;
+    justify-self: center;
+}
+.lorem2{
+    font: 300 20px "Work Sans";
+    color: #808080;
+    text-align: center;
+    line-height: 34px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.team-section{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.team-section .person{
+    height: 350px;
+}
+.team-section img{
+    width: 265px;
+    height: 265px;
+}
+.team-section p{
+    font: 500 19.2px "Work Sans";
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.team-section b{
+    font: 400 12.8px "Work Sans";
+    color: #cccccc;
+    text-transform: uppercase; 
+}
+.rlt{
+    position: relative;
+    overflow: hidden;
+}
+.abs{
+    position: absolute;
+    right: 100%;
+    top: 0;
+    height: 265px;
+    width: 45px;
+    background-color: rgb(0, 123, 255);
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+}
+.abs a{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.person:hover{
+    .abs{
+        right: 220px;
+    }   
+}
+.main-3{
+    height: 87vh;
+    background-color: rgb(247, 249, 250);
+}
+.main-3 h1, .main-4 h1{
+    font: 900 40px "Work Sans";
+    color: #007bff;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 80px;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-1{
+    width: 350px;
+    margin-inline: 10px;
+    margin-top: 80px;
+}
+.service-1 i{
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+.service-1 h3{
+    font: 500 20px "Work Sans";
+    text-transform: capitalize;
+    padding-block: 10px;
+}
+.lorem3{
+    font: 400 16px "Work Sans";
+    line-height: 27.2px;
+    color: #808080;
+    padding-bottom: 15px;
+}
+.link{
+    font: 400 16px "Work Sans";
+    color: #0067d7;
+    text-transform: capitalize
+}
+.hr1{
+    border: none;
+    height: 1px;
+    background-color: #80808051;
+}
+.main-4{
+    height: 55vh;
+}
+.lorem4{
+    font: 400 24px "Work Sans";
+    color: #808080;
+    font-style: italic;
+    text-align: center;
+    justify-self: center;
+    line-height: 40.8px;
+    width: 700px;
+    padding-top: 55px;
+}
+.main-4 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.john{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.john p{
+    font: 400 16px "Work Sans";
+    color: #808080;
+    margin-left: 10px;
+}
+.main-5{
+    background-color: rgb(247, 249, 250);
+    height: 1800px;
+}
+.main-5 h1{
+    font: 900 40px "Work Sans";
+    color: #007bff;
+    text-align: center;
+    padding-block: 100px;
+    text-transform: capitalize;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;    
+    background-color: white;
+    padding: 30px;
+}
+.card h2{
+    font: 500 28px "Work Sans";
+    text-transform: capitalize;
+    padding-block: 30px;
+}
+.card b{
+    font: 400 48px "Work Sans";
+    color: #007bff;
+}
+.year{
+    font: 400 16px "Work Sans";
+    color: #cccccc;
+    padding-bottom: 30px;
+}
+.card li{
+    font: 400 16px "Work Sans";
+    color: #808080;
+    line-height: 24px;
+    margin-block: 15px;
+    display: flex;
+    align-items: center;
+}
+.card i{
+    color: green;
+    margin-inline: 20px;
+}
+#line{
+    color: #00000029;
+}
+.line{
+    color: #00000029;
+    text-decoration: line-through;
+}
+.card-button, .card-buttonn{
+    font: 400 16px "Work Sans";
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(107, 117, 125);
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: .3s;
+}
+.card-buttonn{
+    background-color: #007bff;
+}
+.card-button:hover{
+    background-color: rgb(91, 99, 105);
+}
+.card-buttonn:hover{
+    background-color: black;
+}
+.faq{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.faq div{
+    width: 550px;
+}
+.faq h2{
+    font: 500 20px "Work Sans";
+}
+.faq p{
+    font: 400 16px "Work Sans";
+    color: #808080;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    line-height: 27.2px;
+}
+.main-6{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+.main-6 div{
+    width: 300px;
+    margin-top: 90px;
+}
+.main-6 i{
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+.main-6 h2{
+    font: 500 20px "Work Sans";
+    margin-bottom: 10px;
+}
+.lorem5{
+    font: 400 16px "Work Sans";
+    color: #808080;
+    line-height: 27.2px;
+    margin-bottom: 20px;
+}
+.link2{
+    font: 400 16px "Work Sans";
+    color: #0064cf;
+}
+.main-6 img{
+    width: 540px;
+    height: 400px;
+    margin-top: 90px;
+}
+.main-7{
+    height: 90vh;
+}
+.main-7 h1{
+    font: 900 40px "Work Sans";
+    color: #007bff;
+    text-align: center;
+}
+.posts{
+    display: flex;
+    justify-content: space-between;
+}
+.post{
+    margin-top: 60px;
+    width: 340px;
+}
+.post h3{
+    font: 500 20px "Work Sans";
+    padding-block: 20px;
+    transition: .4s;
+}
+.post h3:hover{
+    color: #007bff;
+}
+.post .info{
+    font: 400 14px "Work Sans";
+    color: #b3b3b3;
+}
+.post b{
+    color: #0064cf;
+}
+.lorem6{
+    font: 400 16px "Work Sans";
+    color: #808080;
+    padding-block: 20px;
+    line-height: 27.2px;
+}
+.continue{
+    font: 400 16px "Work Sans";
+    color: #006ce1;
+}
+.contact{
+    background-color: rgb(247, 249, 250)    ;
+    height: 135vh;
+}
+.contact h1{
+    font: 900 40px "Work Sans";
+    color: #007bff;
+    text-align: center;
+    padding-block: 80px;
+}
+.cntct{
+    width: 1120px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+.cntct div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+.cntct i{
+    font-size: 20px;
+    color: #007bff;
+}
+.cntct p{
+    margin-top: 10px;
+    font: 400 16px "Work Sans";
+    color: #808080;
+    line-height: 27.2px;
+    text-align: center;
+}
+form{
+    margin-top: 80px;
+    height: 78vh;
+    width: 1110px;
+    background-color: white;
+    justify-self: center;
+    padding: 48px;
+}
+form h2{
+    font: 500 24px "Work Sans";
+}
+.part-1{
+    display: flex;
+    margin-top: 50px;
+}
+.part-1 p{
+    padding-block: 15px;
+}
+.name{
+    margin-right: 20px;
+    font: 400 16px "Work Sans";
+}
+.name input{
+    width: 480px;
+    height: 43px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #b3b3b3;
+}
+.lastname{
+    font: 400 16px "Work Sans";
+    margin-left: 20px;
+}
+.lastname input{
+    width: 480px;
+    height: 43px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #b3b3b3;
+}
+.part-2 p{
+    font: 400 16px "Work Sans";
+    padding-block: 15px;
+}
+.part-2 input{
+    height: 43px;
+    width: 1000px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #b3b3b3;
+}
+textarea{
+    border-radius: 30px;
+    width: 1000px;
+    height: 160px;
+    border: none;
+    border: 1px solid #b3b3b3;
+    padding: 10px;
+}
+textarea::placeholder{
+    font: 400 16px "Work Sans";
+}
+.submit{
+    font: 400 16px "Work Sans";
+    color: white;
+    background-color: rgb(0, 123, 255);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: .4s;
+}
+.submit:hover{
+    background-color: black;
+}
+footer{
+    height: 650px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem7{
+    font: 400 16px "Work Sans";
+    color: #737373;
+    line-height: 27.2px;
+    margin-top: 15px;
+}
+footer h3{
+    font: 500 16px "Work Sans";
+    color: white;
+}
+.ftr-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #bebebe59
+}
+.ftr-sec ul{
+    margin-top: 15px;
+}
+.ftr-sec li{
+    font: 400 16px "Work Sans";
+    color: rgb(153, 153, 153);
+    line-height: 27.2px;
+    margin-bottom: 8px;
+}
+.social{
+    font-size: 16px;
+    color: #bebebe;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.enter{
+    padding: 10px 12px;
+    background: transparent;
+    border: none;
+    width: 160px;
+    border: 1px solid #bebebe8d;
+    border-radius: 40px 0 0 40px;
+    font: 400 16px "Work Sans";
+}
+.send{
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
+    font: 400 16px "Work Sans";
+    border: 1px solid #bebebe;
+    border-radius: 0 30px 30px 0;
+}
+.news{
+    margin-top: 15px;
+    display: flex;
+}
+.social i, .ftr-sec li{
+    transition: .4s;
+}
+.social i:hover, .ftr-sec li:hover{
+    color: white;
+}
